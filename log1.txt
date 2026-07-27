@@ -1,0 +1,327 @@
+hypothesis: for relu, initialising the biases by 0.0f gives better learning.
+CORRECT.
+using dist(gen) lr = 0.0005
+Epoch: 1. Average Training Loss = 0.04983. Average Validation Loss = 0.047399
+Epoch: 2. Average Training Loss = 0.0464551. Average Validation Loss = 0.0451825
+Epoch: 3. Average Training Loss = 0.0447444. Average Validation Loss = 0.0437459
+Epoch: 4. Average Training Loss = 0.0433307. Average Validation Loss = 0.0422724
+Epoch: 5. Average Training Loss = 0.0424655. Average Validation Loss = 0.0416077
+Epoch: 6. Average Training Loss = 0.0419357. Average Validation Loss = 0.0411006
+Epoch: 7. Average Training Loss = 0.0414204. Average Validation Loss = 0.0405748
+Epoch: 8. Average Training Loss = 0.040839. Average Validation Loss = 0.039997
+Epoch: 9. Average Training Loss = 0.0402526. Average Validation Loss = 0.0394868
+Epoch: 10. Average Training Loss = 0.0397726. Average Validation Loss = 0.0391034
+Epoch: 11. Average Training Loss = 0.0394407. Average Validation Loss = 0.0388614
+
+using 0.0f, lr = 0.0005
+Epoch: 1. Average Training Loss = 0.0463687. Average Validation Loss = 0.0441173
+Epoch: 2. Average Training Loss = 0.0420739. Average Validation Loss = 0.0387261
+Epoch: 3. Average Training Loss = 0.0372717. Average Validation Loss = 0.0342844
+Epoch: 4. Average Training Loss = 0.0337656. Average Validation Loss = 0.0305729
+Epoch: 5. Average Training Loss = 0.0303418. Average Validation Loss = 0.0268064
+Epoch: 6. Average Training Loss = 0.0271993. Average Validation Loss = 0.0238415
+Epoch: 7. Average Training Loss = 0.0247722. Average Validation Loss = 0.0217213
+Epoch: 8. Average Training Loss = 0.0229345. Average Validation Loss = 0.0202565
+Epoch: 9. Average Training Loss = 0.0216058. Average Validation Loss = 0.019389
+Epoch: 10. Average Training Loss = 0.0206935. Average Validation Loss = 0.0187827
+Epoch: 11. Average Training Loss = 0.0200493. Average Validation Loss = 0.0183348
+Epoch: 12. Average Training Loss = 0.0195732. Average Validation Loss = 0.0180172
+
+__________________________________________________________________________________________________________________
+hypothesis: normalisation (a) (x/255 - 0.5)*2 [-1, 1] is better than (b) x/255 [0, 1]
+
+using (a):
+Epoch: 1. Average Training Loss = 0.045558. Average Validation Loss = 0.0439504
+Epoch: 2. Average Training Loss = 0.041747. Average Validation Loss = 0.0376516
+Epoch: 3. Average Training Loss = 0.0349152. Average Validation Loss = 0.0296435
+Epoch: 4. Average Training Loss = 0.0274629. Average Validation Loss = 0.0225015
+Epoch: 5. Average Training Loss = 0.0227. Average Validation Loss = 0.0192754
+Epoch: 6. Average Training Loss = 0.0201185. Average Validation Loss = 0.0172086
+Epoch: 7. Average Training Loss = 0.01785. Average Validation Loss = 0.0152801
+Epoch: 8. Average Training Loss = 0.0162473. Average Validation Loss = 0.0140633
+Epoch: 9. Average Training Loss = 0.0149935. Average Validation Loss = 0.013069
+Epoch: 10. Average Training Loss = 0.0139347. Average Validation Loss = 0.012257
+Epoch: 11. Average Training Loss = 0.0130559. Average Validation Loss = 0.0115868
+Epoch: 12. Average Training Loss = 0.0123558. Average Validation Loss = 0.011057
+Epoch: 13. Average Training Loss = 0.0118012. Average Validation Loss = 0.0106723
+Epoch: 14. Average Training Loss = 0.0113563. Average Validation Loss = 0.0103946
+Epoch: 15. Average Training Loss = 0.0109895. Average Validation Loss = 0.0101654
+Epoch: 16. Average Training Loss = 0.0106807. Average Validation Loss = 0.00994149
+Epoch: 17. Average Training Loss = 0.0104029. Average Validation Loss = 0.00975256
+Epoch: 18. Average Training Loss = 0.0101551. Average Validation Loss = 0.00960441
+Epoch: 19. Average Training Loss = 0.00993176. Average Validation Loss = 0.00947196
+Epoch: 20. Average Training Loss = 0.00972576. Average Validation Loss = 0.00928757
+Epoch: 21. Average Training Loss = 0.00952597. Average Validation Loss = 0.00914584
+Epoch: 22. Average Training Loss = 0.0093366. Average Validation Loss = 0.00902036
+Epoch: 23. Average Training Loss = 0.00916101. Average Validation Loss = 0.00892142
+Epoch: 24. Average Training Loss = 0.00899075. Average Validation Loss = 0.00882236
+Epoch: 25. Average Training Loss = 0.0088242. Average Validation Loss = 0.00881512
+Epoch: 26. Average Training Loss = 0.00866443. Average Validation Loss = 0.00871661
+Epoch: 27. Average Training Loss = 0.00850987. Average Validation Loss = 0.00863149
+Epoch: 28. Average Training Loss = 0.00836433. Average Validation Loss = 0.00853226
+Epoch: 29. Average Training Loss = 0.00822921. Average Validation Loss = 0.00842744
+Epoch: 30. Average Training Loss = 0.00809648. Average Validation Loss = 0.00831371
+
+Better fall initially. plateauing later. 
+Added Advantage: can work with higher lr (0.005), unlike (b) 
+
+using (b)
+Epoch: 1. Average Training Loss = 0.0460079. Average Validation Loss = 0.0454273
+Epoch: 2. Average Training Loss = 0.0447831. Average Validation Loss = 0.0440845
+Epoch: 3. Average Training Loss = 0.0423807. Average Validation Loss = 0.0403787
+Epoch: 4. Average Training Loss = 0.0380462. Average Validation Loss = 0.0355864
+Epoch: 5. Average Training Loss = 0.0337195. Average Validation Loss = 0.0309253
+Epoch: 6. Average Training Loss = 0.0293225. Average Validation Loss = 0.026296
+Epoch: 7. Average Training Loss = 0.0254297. Average Validation Loss = 0.0228389
+Epoch: 8. Average Training Loss = 0.0226048. Average Validation Loss = 0.0205155
+Epoch: 9. Average Training Loss = 0.0207093. Average Validation Loss = 0.0190131
+Epoch: 10. Average Training Loss = 0.0194932. Average Validation Loss = 0.0180916
+Epoch: 11. Average Training Loss = 0.0187112. Average Validation Loss = 0.0175412
+Epoch: 12. Average Training Loss = 0.0181793. Average Validation Loss = 0.0171731
+Epoch: 13. Average Training Loss = 0.0177976. Average Validation Loss = 0.0169251
+Epoch: 14. Average Training Loss = 0.0174997. Average Validation Loss = 0.0167295
+Epoch: 15. Average Training Loss = 0.017254. Average Validation Loss = 0.0165789
+Epoch: 16. Average Training Loss = 0.017041. Average Validation Loss = 0.0164409
+Epoch: 17. Average Training Loss = 0.0168558. Average Validation Loss = 0.0163221
+Epoch: 18. Average Training Loss = 0.0166921. Average Validation Loss = 0.0162147
+Epoch: 19. Average Training Loss = 0.0165419. Average Validation Loss = 0.0161207
+Epoch: 20. Average Training Loss = 0.016403. Average Validation Loss = 0.016035
+Epoch: 21. Average Training Loss = 0.016274. Average Validation Loss = 0.0159726
+Epoch: 22. Average Training Loss = 0.0161535. Average Validation Loss = 0.015899
+Epoch: 23. Average Training Loss = 0.0160395. Average Validation Loss = 0.0158538
+Epoch: 24. Average Training Loss = 0.0159342. Average Validation Loss = 0.0157929
+Epoch: 25. Average Training Loss = 0.015837. Average Validation Loss = 0.0157336
+Epoch: 26. Average Training Loss = 0.0157435. Average Validation Loss = 0.0156762
+Epoch: 27. Average Training Loss = 0.0156355. Average Validation Loss = 0.0152659
+Epoch: 28. Average Training Loss = 0.0150046. Average Validation Loss = 0.0147187
+Epoch: 29. Average Training Loss = 0.0146791. Average Validation Loss = 0.0144309
+Epoch: 30. Average Training Loss = 0.0144223. Average Validation Loss = 0.0141519
+
+___________________________________________________________________________________________________________
+
+Decreased leak from 0.001 to 0.0001. Achieved MUCH better learning rate.
+
+Using 0.001:
+Epoch: 1. Average Training Loss = 0.045558. Average Validation Loss = 0.0439504
+Epoch: 2. Average Training Loss = 0.041747. Average Validation Loss = 0.0376516
+Epoch: 3. Average Training Loss = 0.0349152. Average Validation Loss = 0.0296435
+Epoch: 4. Average Training Loss = 0.0274629. Average Validation Loss = 0.0225015
+Epoch: 5. Average Training Loss = 0.0227. Average Validation Loss = 0.0192754
+Epoch: 6. Average Training Loss = 0.0201185. Average Validation Loss = 0.0172086
+Epoch: 7. Average Training Loss = 0.01785. Average Validation Loss = 0.0152801
+Epoch: 8. Average Training Loss = 0.0162473. Average Validation Loss = 0.0140633
+Epoch: 9. Average Training Loss = 0.0149935. Average Validation Loss = 0.013069
+Epoch: 10. Average Training Loss = 0.0139347. Average Validation Loss = 0.012257
+Epoch: 11. Average Training Loss = 0.0130559. Average Validation Loss = 0.0115868
+Epoch: 12. Average Training Loss = 0.0123558. Average Validation Loss = 0.011057
+Epoch: 13. Average Training Loss = 0.0118012. Average Validation Loss = 0.0106723
+Epoch: 14. Average Training Loss = 0.0113563. Average Validation Loss = 0.0103946
+Epoch: 15. Average Training Loss = 0.0109895. Average Validation Loss = 0.0101654
+Epoch: 16. Average Training Loss = 0.0106807. Average Validation Loss = 0.00994149
+Epoch: 17. Average Training Loss = 0.0104029. Average Validation Loss = 0.00975256
+Epoch: 18. Average Training Loss = 0.0101551. Average Validation Loss = 0.00960441
+Epoch: 19. Average Training Loss = 0.00993176. Average Validation Loss = 0.00947196
+Epoch: 20. Average Training Loss = 0.00972576. Average Validation Loss = 0.00928757
+Epoch: 21. Average Training Loss = 0.00952597. Average Validation Loss = 0.00914584
+Epoch: 22. Average Training Loss = 0.0093366. Average Validation Loss = 0.00902036
+Epoch: 23. Average Training Loss = 0.00916101. Average Validation Loss = 0.00892142
+Epoch: 24. Average Training Loss = 0.00899075. Average Validation Loss = 0.00882236
+Epoch: 25. Average Training Loss = 0.0088242. Average Validation Loss = 0.00881512
+Epoch: 26. Average Training Loss = 0.00866443. Average Validation Loss = 0.00871661
+Epoch: 27. Average Training Loss = 0.00850987. Average Validation Loss = 0.00863149
+Epoch: 28. Average Training Loss = 0.00836433. Average Validation Loss = 0.00853226
+Epoch: 29. Average Training Loss = 0.00822921. Average Validation Loss = 0.00842744
+Epoch: 30. Average Training Loss = 0.00809648. Average Validation Loss = 0.00831371
+
+using 0.0001:
+Epoch: 1. Average Training Loss = 0.0465671. Average Validation Loss = 0.0454643
+Epoch: 2. Average Training Loss = 0.0433275. Average Validation Loss = 0.0399383
+Epoch: 3. Average Training Loss = 0.0365731. Average Validation Loss = 0.03251
+Epoch: 4. Average Training Loss = 0.0292762. Average Validation Loss = 0.0250786
+Epoch: 5. Average Training Loss = 0.0234014. Average Validation Loss = 0.0199504
+Epoch: 6. Average Training Loss = 0.0197171. Average Validation Loss = 0.0164055
+Epoch: 7. Average Training Loss = 0.0171742. Average Validation Loss = 0.0142127
+Epoch: 8. Average Training Loss = 0.0154641. Average Validation Loss = 0.0127794
+Epoch: 9. Average Training Loss = 0.0142137. Average Validation Loss = 0.0117237
+Epoch: 10. Average Training Loss = 0.0131704. Average Validation Loss = 0.0109254
+Epoch: 11. Average Training Loss = 0.0122663. Average Validation Loss = 0.0102512
+Epoch: 12. Average Training Loss = 0.011511. Average Validation Loss = 0.00971904
+Epoch: 13. Average Training Loss = 0.0109088. Average Validation Loss = 0.00932713
+Epoch: 14. Average Training Loss = 0.0104492. Average Validation Loss = 0.00902033
+Epoch: 15. Average Training Loss = 0.0100923. Average Validation Loss = 0.00878203
+Epoch: 16. Average Training Loss = 0.00979881. Average Validation Loss = 0.00861744
+Epoch: 17. Average Training Loss = 0.00953782. Average Validation Loss = 0.00849429
+Epoch: 18. Average Training Loss = 0.00930524. Average Validation Loss = 0.00839162
+Epoch: 19. Average Training Loss = 0.00910154. Average Validation Loss = 0.0083022
+Epoch: 20. Average Training Loss = 0.0089192. Average Validation Loss = 0.00822296
+Epoch: 21. Average Training Loss = 0.00874707. Average Validation Loss = 0.00814103
+Epoch: 22. Average Training Loss = 0.00858965. Average Validation Loss = 0.00810275
+Epoch: 23. Average Training Loss = 0.00844766. Average Validation Loss = 0.00800794
+Epoch: 24. Average Training Loss = 0.00831331. Average Validation Loss = 0.00793102
+Epoch: 25. Average Training Loss = 0.00818829. Average Validation Loss = 0.00786693
+Epoch: 26. Average Training Loss = 0.00806799. Average Validation Loss = 0.00784304
+Epoch: 27. Average Training Loss = 0.0079538. Average Validation Loss = 0.00782432
+Epoch: 28. Average Training Loss = 0.00784668. Average Validation Loss = 0.0077693
+Epoch: 29. Average Training Loss = 0.00774501. Average Validation Loss = 0.00774044
+Epoch: 30. Average Training Loss = 0.00764858. Average Validation Loss = 0.00770202
+
+___________________________________________________________________________________________________________
+Decreased leak from 0.0001 to 0.00001. TRAINING PLATEUED EARLY.
+Epoch: 1. Average Training Loss = 0.0434898. Average Validation Loss = 0.0400121
+Epoch: 2. Average Training Loss = 0.0362782. Average Validation Loss = 0.0328028
+Epoch: 3. Average Training Loss = 0.0299643. Average Validation Loss = 0.0256924
+Epoch: 4. Average Training Loss = 0.0240748. Average Validation Loss = 0.0206621
+Epoch: 5. Average Training Loss = 0.0206481. Average Validation Loss = 0.0182232
+Epoch: 6. Average Training Loss = 0.0186009. Average Validation Loss = 0.0165087
+Epoch: 7. Average Training Loss = 0.0171417. Average Validation Loss = 0.0153574
+Epoch: 8. Average Training Loss = 0.0160996. Average Validation Loss = 0.0146104
+Epoch: 9. Average Training Loss = 0.0153521. Average Validation Loss = 0.0141449
+Epoch: 10. Average Training Loss = 0.0148037. Average Validation Loss = 0.0137898
+Epoch: 11. Average Training Loss = 0.0143897. Average Validation Loss = 0.0135308
+Epoch: 12. Average Training Loss = 0.0140507. Average Validation Loss = 0.013279
+Epoch: 13. Average Training Loss = 0.013765. Average Validation Loss = 0.0130737
+Epoch: 14. Average Training Loss = 0.0135154. Average Validation Loss = 0.0129102
+Epoch: 15. Average Training Loss = 0.01329. Average Validation Loss = 0.0127651
+Epoch: 16. Average Training Loss = 0.0130872. Average Validation Loss = 0.0126359
+Epoch: 17. Average Training Loss = 0.0129028. Average Validation Loss = 0.0125338
+Epoch: 18. Average Training Loss = 0.0127311. Average Validation Loss = 0.0124338
+Epoch: 19. Average Training Loss = 0.0125724. Average Validation Loss = 0.012341
+Epoch: 20. Average Training Loss = 0.0124258. Average Validation Loss = 0.0122526
+Epoch: 21. Average Training Loss = 0.0122888. Average Validation Loss = 0.0121633
+Epoch: 22. Average Training Loss = 0.0121618. Average Validation Loss = 0.0120646
+Epoch: 23. Average Training Loss = 0.0120427. Average Validation Loss = 0.0119873
+Epoch: 24. Average Training Loss = 0.0119372. Average Validation Loss = 0.0119046
+Epoch: 25. Average Training Loss = 0.0118351. Average Validation Loss = 0.011837
+Epoch: 26. Average Training Loss = 0.0117408. Average Validation Loss = 0.0117531
+Epoch: 27. Average Training Loss = 0.0116471. Average Validation Loss = 0.0116894
+Epoch: 28. Average Training Loss = 0.0115632. Average Validation Loss = 0.0116127
+Epoch: 29. Average Training Loss = 0.011478. Average Validation Loss = 0.0115463
+Epoch: 30. Average Training Loss = 0.0113959. Average Validation Loss = 0.0114887
+Overall Accuracy = 80.5
+
+initial learning was better. but 0.0001 surpassed it at the 9th epoch. 
+___________________________________________________________________________________________________________
+
+leak 0.00005 plateaued even earlier at ~0.015
+
+___________________________________________________________________________________________________________
+Used softmax + cross entropy + relu
+
+Datasets' Loading Complete.
+
+0 : Frequency = 1001
+1 : Frequency = 1127
+2 : Frequency = 991
+3 : Frequency = 1032
+4 : Frequency = 980
+5 : Frequency = 863
+6 : Frequency = 1014
+7 : Frequency = 1070
+8 : Frequency = 944
+9 : Frequency = 978
+
+Epoch: 1. Average Training Loss = 2.29844. Average Validation Loss = 2.29658 Validation Accuracy = 15%.
+Epoch: 2. Average Training Loss = 2.29539. Average Validation Loss = 2.29309 Validation Accuracy = 15.5%.
+Epoch: 3. Average Training Loss = 2.29145. Average Validation Loss = 2.28852 Validation Accuracy = 15.9%.
+Epoch: 4. Average Training Loss = 2.28626. Average Validation Loss = 2.28242 Validation Accuracy = 15.4%.
+Epoch: 5. Average Training Loss = 2.27951. Average Validation Loss = 2.27445 Validation Accuracy = 15%.
+Epoch: 6. Average Training Loss = 2.2704. Average Validation Loss = 2.2635 Validation Accuracy = 15.1%.
+Epoch: 7. Average Training Loss = 2.25753. Average Validation Loss = 2.24762 Validation Accuracy = 15.9%.
+Epoch: 8. Average Training Loss = 2.23871. Average Validation Loss = 2.224 Validation Accuracy = 17.5%.
+Epoch: 9. Average Training Loss = 2.21113. Average Validation Loss = 2.18939 Validation Accuracy = 19.6%.
+Epoch: 10. Average Training Loss = 2.17189. Average Validation Loss = 2.14057 Validation Accuracy = 21.8%.
+Epoch: 11. Average Training Loss = 2.11918. Average Validation Loss = 2.07667 Validation Accuracy = 23.5%.
+Epoch: 12. Average Training Loss = 2.05362. Average Validation Loss = 2.00067 Validation Accuracy = 24.7%.
+Epoch: 13. Average Training Loss = 1.98022. Average Validation Loss = 1.9209 Validation Accuracy = 27.9%.
+Epoch: 14. Average Training Loss = 1.90364. Average Validation Loss = 1.84286 Validation Accuracy = 29.1%.
+Epoch: 15. Average Training Loss = 1.82335. Average Validation Loss = 1.75495 Validation Accuracy = 36.5%.
+Epoch: 16. Average Training Loss = 1.71762. Average Validation Loss = 1.62373 Validation Accuracy = 47.1%.
+Epoch: 17. Average Training Loss = 1.55834. Average Validation Loss = 1.44456 Validation Accuracy = 51.9%.
+Epoch: 18. Average Training Loss = 1.399. Average Validation Loss = 1.29687 Validation Accuracy = 54.7%.
+Epoch: 19. Average Training Loss = 1.2876. Average Validation Loss = 1.18925 Validation Accuracy = 58.2%.
+Epoch: 20. Average Training Loss = 1.20582. Average Validation Loss = 1.10405 Validation Accuracy = 60.9%.
+Epoch: 21. Average Training Loss = 1.13997. Average Validation Loss = 1.03195 Validation Accuracy = 63.4%.
+Epoch: 22. Average Training Loss = 1.08335. Average Validation Loss = 0.968247 Validation Accuracy = 65.9%.
+Epoch: 23. Average Training Loss = 1.03272. Average Validation Loss = 0.91083 Validation Accuracy = 68.8%.
+Epoch: 24. Average Training Loss = 0.98638. Average Validation Loss = 0.858018 Validation Accuracy = 71.9%.
+Epoch: 25. Average Training Loss = 0.943395. Average Validation Loss = 0.808696 Validation Accuracy = 73.7%.
+Epoch: 26. Average Training Loss = 0.902816. Average Validation Loss = 0.762017 Validation Accuracy = 77.1%.
+Epoch: 27. Average Training Loss = 0.864061. Average Validation Loss = 0.717293 Validation Accuracy = 78.7%.
+Epoch: 28. Average Training Loss = 0.826425. Average Validation Loss = 0.673955 Validation Accuracy = 80.5%.
+Epoch: 29. Average Training Loss = 0.789562. Average Validation Loss = 0.632692 Validation Accuracy = 82.5%.
+Epoch: 30. Average Training Loss = 0.753765. Average Validation Loss = 0.594906 Validation Accuracy = 83.6%.
+Epoch: 31. Average Training Loss = 0.720023. Average Validation Loss = 0.562274 Validation Accuracy = 84.6%.
+Epoch: 32. Average Training Loss = 0.689289. Average Validation Loss = 0.535087 Validation Accuracy = 85.5%.
+Epoch: 33. Average Training Loss = 0.662232. Average Validation Loss = 0.512934 Validation Accuracy = 85.6%.
+Epoch: 34. Average Training Loss = 0.63894. Average Validation Loss = 0.495435 Validation Accuracy = 85.7%.
+Epoch: 35. Average Training Loss = 0.618999. Average Validation Loss = 0.480983 Validation Accuracy = 85.8%.
+Epoch: 36. Average Training Loss = 0.601896. Average Validation Loss = 0.46964 Validation Accuracy = 86%.
+Epoch: 37. Average Training Loss = 0.587127. Average Validation Loss = 0.460064 Validation Accuracy = 86.2%.
+Epoch: 38. Average Training Loss = 0.574202. Average Validation Loss = 0.45196 Validation Accuracy = 86.5%.
+Epoch: 39. Average Training Loss = 0.562829. Average Validation Loss = 0.445023 Validation Accuracy = 86.8%.
+Epoch: 40. Average Training Loss = 0.552694. Average Validation Loss = 0.438775 Validation Accuracy = 87.7%.
+Epoch: 41. Average Training Loss = 0.543592. Average Validation Loss = 0.433453 Validation Accuracy = 87.9%.
+Epoch: 42. Average Training Loss = 0.535383. Average Validation Loss = 0.428546 Validation Accuracy = 88%.
+Epoch: 43. Average Training Loss = 0.527916. Average Validation Loss = 0.424227 Validation Accuracy = 88.4%.
+Epoch: 44. Average Training Loss = 0.521062. Average Validation Loss = 0.420253 Validation Accuracy = 88.4%.
+Epoch: 45. Average Training Loss = 0.514667. Average Validation Loss = 0.416747 Validation Accuracy = 88.3%.
+Epoch: 46. Average Training Loss = 0.508696. Average Validation Loss = 0.413465 Validation Accuracy = 88.4%.
+Epoch: 47. Average Training Loss = 0.503096. Average Validation Loss = 0.410287 Validation Accuracy = 88.4%.
+Epoch: 48. Average Training Loss = 0.497768. Average Validation Loss = 0.407256 Validation Accuracy = 88.5%.
+Epoch: 49. Average Training Loss = 0.492679. Average Validation Loss = 0.404485 Validation Accuracy = 88.5%.
+Epoch: 50. Average Training Loss = 0.487782. Average Validation Loss = 0.402031 Validation Accuracy = 88.5%.
+Epoch: 51. Average Training Loss = 0.483052. Average Validation Loss = 0.399527 Validation Accuracy = 88.7%.
+Epoch: 52. Average Training Loss = 0.478437. Average Validation Loss = 0.397075 Validation Accuracy = 88.6%.
+Epoch: 53. Average Training Loss = 0.473877. Average Validation Loss = 0.394801 Validation Accuracy = 88.6%.
+Epoch: 54. Average Training Loss = 0.469363. Average Validation Loss = 0.392464 Validation Accuracy = 88.6%.
+Epoch: 55. Average Training Loss = 0.464906. Average Validation Loss = 0.390088 Validation Accuracy = 88.7%.
+Epoch: 56. Average Training Loss = 0.460462. Average Validation Loss = 0.387619 Validation Accuracy = 88.7%.
+Epoch: 57. Average Training Loss = 0.45605. Average Validation Loss = 0.38488 Validation Accuracy = 88.6%.
+Epoch: 58. Average Training Loss = 0.451666. Average Validation Loss = 0.382101 Validation Accuracy = 88.7%.
+Epoch: 59. Average Training Loss = 0.44725. Average Validation Loss = 0.379401 Validation Accuracy = 88.9%.
+Epoch: 60. Average Training Loss = 0.442788. Average Validation Loss = 0.376542 Validation Accuracy = 88.9%.
+Training complete.
+
+Time taken for training : 521.046 seconds.
+
+0 : Frequency = 85. Correctly predicted = 81. Incorrectly predicted = 4. Accuracy = 95.2941
+. Confidence when predicted correctly = 92.5618. Confidence when predicted incorrectly = 49.2291
+
+1 : Frequency = 126. Correctly predicted = 117. Incorrectly predicted = 9. Accuracy = 92.8571
+. Confidence when predicted correctly = 91.1337. Confidence when predicted incorrectly = 61.0279
+
+2 : Frequency = 116. Correctly predicted = 98. Incorrectly predicted = 18. Accuracy = 84.4828
+. Confidence when predicted correctly = 89.964. Confidence when predicted incorrectly = 48.9178
+
+3 : Frequency = 107. Correctly predicted = 82. Incorrectly predicted = 25. Accuracy = 76.6355
+. Confidence when predicted correctly = 81.6844. Confidence when predicted incorrectly = 56.4958
+
+4 : Frequency = 110. Correctly predicted = 89. Incorrectly predicted = 21. Accuracy = 80.9091
+. Confidence when predicted correctly = 79.6445. Confidence when predicted incorrectly = 58.4255
+
+5 : Frequency = 87. Correctly predicted = 59. Incorrectly predicted = 28. Accuracy = 67.8161
+. Confidence when predicted correctly = 70.0094. Confidence when predicted incorrectly = 63.7345
+
+6 : Frequency = 87. Correctly predicted = 76. Incorrectly predicted = 11. Accuracy = 87.3563
+. Confidence when predicted correctly = 89.4509. Confidence when predicted incorrectly = 64.2759
+
+7 : Frequency = 99. Correctly predicted = 75. Incorrectly predicted = 24. Accuracy = 75.7576
+. Confidence when predicted correctly = 89.2497. Confidence when predicted incorrectly = 61.9979
+
+8 : Frequency = 89. Correctly predicted = 69. Incorrectly predicted = 20. Accuracy = 77.5281
+. Confidence when predicted correctly = 82.393. Confidence when predicted incorrectly = 50.9688
+
+9 : Frequency = 94. Correctly predicted = 77. Incorrectly predicted = 17. Accuracy = 81.9149
+. Confidence when predicted correctly = 78.0035. Confidence when predicted incorrectly = 53.1543
+
+
+Overall Accuracy = 82.3
+
+___________________________________________________________________________________________________________
+
+if using leaky Relu (0.0001f) with softmax + cross entropy, use lr = 0.00005 (10000 img)
+if using leaky Relu (0.0001f) without softmax + cross entropy, use lr = 0.0001 (10000 img)
+if using sigmoid, without softmax + CE, use lr = 0.1 (5000 img) / 0.05 (10000 img), use rand(0,1) initialisation of weights, rand(-1, 1) init of biases.
+
+___________________________________________________________________________________________________________
+

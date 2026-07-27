@@ -1,0 +1,41 @@
+# ==========================================
+# 1. Compiled Executables & Binaries
+# ==========================================
+*.exe
+*.out
+*.o
+*.obj
+nn.exe
+nnAdvanced.exe
+try.exe
+a.exe
+a.out
+
+# ==========================================
+# 2. Datasets & CSV Files (Prevents >100MB Push Errors)
+# ==========================================
+*.csv
+mnist_train.csv
+mnist_test.csv
+test1.csv
+test1k.csv
+train1.csv
+train10k.csv
+val.csv
+val1.csv
+
+# ==========================================
+
+# ==========================================
+# 4. Saved Model Checkpoints / Weights
+# ==========================================
+Saved models/
+model 1.*
+
+# ==========================================
+# 5. IDE & Code Runner Temporary Files
+# ==========================================
+.vscode/
+tempCodeRunnerFile.cpp
+*.swp
+.DS_Store

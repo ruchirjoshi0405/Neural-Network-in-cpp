@@ -1,0 +1,1135 @@
+Epoch: 1. Average Loss = 0.0554392
+Epoch: 2. Average Loss = 0.0448804
+Epoch: 3. Average Loss = 0.0442506
+Epoch: 4. Average Loss = 0.043533
+Epoch: 5. Average Loss = 0.0426529
+Epoch: 6. Average Loss = 0.041546
+Epoch: 7. Average Loss = 0.0402102
+Epoch: 8. Average Loss = 0.0387306
+Epoch: 9. Average Loss = 0.0372068
+Epoch: 10. Average Loss = 0.0357104
+Epoch: 11. Average Loss = 0.0342823
+Epoch: 12. Average Loss = 0.0329392
+Epoch: 13. Average Loss = 0.0316745
+Epoch: 14. Average Loss = 0.0304762
+Epoch: 15. Average Loss = 0.0293324
+Epoch: 16. Average Loss = 0.0282277
+Epoch: 17. Average Loss = 0.02715
+Epoch: 18. Average Loss = 0.0260917
+Epoch: 19. Average Loss = 0.0250464
+Epoch: 20. Average Loss = 0.0240104
+Training complete.
+
+0.0691014
+0.138639
+0.719967
+0.00777907
+0.0274095
+0.055649
+0.0629561
+0.109082
+0.0397346
+0.0378812
+Digit : 2
+
+0.200424
+0.0522751
+0.0211919
+0.254811
+0.0320453
+0.150834
+0.0511914
+0.165562
+0.0942388
+0.0745443
+Digit : 3
+
+0.00897924
+0.0208827
+0.0233702
+0.126897
+0.622863
+0.0846308
+0.196755
+0.0627063
+0.102365
+0.222142
+Digit : 4
+
+0.356582
+0.013617
+0.0217501
+0.237859
+0.0727792
+0.0415226
+0.061377
+0.14073
+0.0607947
+0.113396
+Digit : 5
+
+0.748314
+0.0190952
+0.0714014
+0.0704973
+0.0479455
+0.040869
+0.0650678
+0.131241
+0.0515237
+0.0750449
+Digit : 6
+
+0.0737352
+0.0130813
+0.0470149
+0.125958
+0.109315
+0.110238
+0.155264
+0.221604
+0.0440623
+0.281652
+Digit : 7
+
+0.0111175
+0.0634419
+0.0173685
+0.378516
+0.231436
+0.178302
+0.15279
+0.0520422
+0.104467
+0.171949
+Digit : 8
+
+0.0434945
+0.0309919
+0.0357699
+0.0346427
+0.163557
+0.0823799
+0.0962071
+0.162639
+0.0879997
+0.323163
+Digit : 9
+
+___________________________________________________________________________________________________________
+
+training size = 300 images.
+
+Epoch: 1. Average Loss = 0.0553221
+Epoch: 2. Average Loss = 0.0453586
+Epoch: 3. Average Loss = 0.0447728
+Epoch: 4. Average Loss = 0.0441271
+Epoch: 5. Average Loss = 0.0433796
+Epoch: 6. Average Loss = 0.0425053
+Epoch: 7. Average Loss = 0.0414952
+Epoch: 8. Average Loss = 0.0403638
+Epoch: 9. Average Loss = 0.0391397
+Epoch: 10. Average Loss = 0.0378857
+Epoch: 11. Average Loss = 0.0366352
+Epoch: 12. Average Loss = 0.0353757
+Epoch: 13. Average Loss = 0.0341166
+Epoch: 14. Average Loss = 0.0328745
+Epoch: 15. Average Loss = 0.0316342
+Epoch: 16. Average Loss = 0.0303796
+Epoch: 17. Average Loss = 0.0291123
+Epoch: 18. Average Loss = 0.0278486
+Epoch: 19. Average Loss = 0.0266076
+Epoch: 20. Average Loss = 0.025404
+Training complete.
+
+0.0355751
+0.205768
+0.0463446
+0.0510743
+0.0712906
+0.18573
+0.36113
+0.0219801
+0.144528
+0.0525964
+Digit : 6
+
+0.206324
+0.187223
+0.0841653
+0.022957
+0.0195853
+0.238592
+0.0569588
+0.0815252
+0.131918
+0.0305667
+Digit : 8
+
+___________________________________________________________________________________________________________
+
+training size = 300 images.
+
+Epoch: 1. Average Loss = 0.0535798
+Epoch: 2. Average Loss = 0.0447244
+Epoch: 3. Average Loss = 0.0440686
+Epoch: 4. Average Loss = 0.0434045
+Epoch: 5. Average Loss = 0.0426235
+Epoch: 6. Average Loss = 0.0416717
+Epoch: 7. Average Loss = 0.0405252
+Epoch: 8. Average Loss = 0.0392037
+Epoch: 9. Average Loss = 0.0377824
+Epoch: 10. Average Loss = 0.0363521
+Epoch: 11. Average Loss = 0.0349662
+Epoch: 12. Average Loss = 0.0336399
+Epoch: 13. Average Loss = 0.0323718
+Epoch: 14. Average Loss = 0.0311674
+Epoch: 15. Average Loss = 0.0300253
+Epoch: 16. Average Loss = 0.0289228
+Epoch: 17. Average Loss = 0.0278365
+Epoch: 18. Average Loss = 0.0267526
+Epoch: 19. Average Loss = 0.0256691
+Epoch: 20. Average Loss = 0.0245939
+Epoch: 21. Average Loss = 0.0235349
+Epoch: 22. Average Loss = 0.022497
+Epoch: 23. Average Loss = 0.0214837
+Epoch: 24. Average Loss = 0.0204981
+Epoch: 25. Average Loss = 0.0195437
+Epoch: 26. Average Loss = 0.0186227
+Epoch: 27. Average Loss = 0.0177384
+Epoch: 28. Average Loss = 0.0168947
+Epoch: 29. Average Loss = 0.016094
+Epoch: 30. Average Loss = 0.0153362
+Epoch: 31. Average Loss = 0.0146202
+Epoch: 32. Average Loss = 0.0139463
+Epoch: 33. Average Loss = 0.0133166
+Epoch: 34. Average Loss = 0.0127319
+Epoch: 35. Average Loss = 0.0121899
+Epoch: 36. Average Loss = 0.011686
+Epoch: 37. Average Loss = 0.0112156
+Epoch: 38. Average Loss = 0.0107751
+Epoch: 39. Average Loss = 0.0103626
+Epoch: 40. Average Loss = 0.00997689
+Epoch: 41. Average Loss = 0.00961596
+Epoch: 42. Average Loss = 0.00927793
+Epoch: 43. Average Loss = 0.00896102
+Epoch: 44. Average Loss = 0.00866212
+Epoch: 45. Average Loss = 0.00837626
+Epoch: 46. Average Loss = 0.00809758
+Epoch: 47. Average Loss = 0.00782583
+Epoch: 48. Average Loss = 0.00757088
+Epoch: 49. Average Loss = 0.00733669
+Epoch: 50. Average Loss = 0.00711987
+Epoch: 51. Average Loss = 0.00691734
+Epoch: 52. Average Loss = 0.00672731
+Epoch: 53. Average Loss = 0.00654863
+Epoch: 54. Average Loss = 0.00638043
+Epoch: 55. Average Loss = 0.00622187
+Epoch: 56. Average Loss = 0.00607207
+Epoch: 57. Average Loss = 0.00593009
+Epoch: 58. Average Loss = 0.00579495
+Epoch: 59. Average Loss = 0.00566563
+Epoch: 60. Average Loss = 0.00554113
+Epoch: 61. Average Loss = 0.0054204
+Epoch: 62. Average Loss = 0.0053024
+Epoch: 63. Average Loss = 0.00518595
+Epoch: 64. Average Loss = 0.00506986
+Epoch: 65. Average Loss = 0.00495299
+Epoch: 66. Average Loss = 0.00483476
+Epoch: 67. Average Loss = 0.00471522
+Epoch: 68. Average Loss = 0.00459396
+Epoch: 69. Average Loss = 0.00446948
+Epoch: 70. Average Loss = 0.00434039
+Epoch: 71. Average Loss = 0.00420659
+Epoch: 72. Average Loss = 0.00406734
+Epoch: 73. Average Loss = 0.00392169
+Epoch: 74. Average Loss = 0.00378218
+Epoch: 75. Average Loss = 0.00366556
+Epoch: 76. Average Loss = 0.00356629
+Epoch: 77. Average Loss = 0.0034791
+Epoch: 78. Average Loss = 0.00340052
+Epoch: 79. Average Loss = 0.00332848
+Epoch: 80. Average Loss = 0.00326168
+Epoch: 81. Average Loss = 0.00319926
+Epoch: 82. Average Loss = 0.00314058
+Epoch: 83. Average Loss = 0.00308513
+Epoch: 84. Average Loss = 0.00303251
+Epoch: 85. Average Loss = 0.00298239
+Epoch: 86. Average Loss = 0.00293448
+Epoch: 87. Average Loss = 0.00288855
+Epoch: 88. Average Loss = 0.0028444
+Epoch: 89. Average Loss = 0.00280185
+Epoch: 90. Average Loss = 0.00276078
+Epoch: 91. Average Loss = 0.00272106
+Epoch: 92. Average Loss = 0.00268257
+Epoch: 93. Average Loss = 0.00264522
+Epoch: 94. Average Loss = 0.00260887
+Epoch: 95. Average Loss = 0.00257341
+Epoch: 96. Average Loss = 0.0025387
+Epoch: 97. Average Loss = 0.00250463
+Epoch: 98. Average Loss = 0.00247114
+Epoch: 99. Average Loss = 0.00243825
+Epoch: 100. Average Loss = 0.00240604
+Training complete.
+
+0.00344141
+0.0319374
+0.00723172
+0.146022
+0.000188058
+0.0553184
+0.258479
+8.76257e-05
+0.143673
+0.0298466
+Digit : 2
+
+0.197637
+0.0344277
+0.0016053
+0.0775918
+0.00176025
+0.781349
+0.00459852
+7.46516e-05
+0.00308066
+0.020582
+Digit : 3
+
+0.0369666
+0.000146158
+0.00741315
+0.000264178
+0.961981
+0.0395966
+0.014091
+0.0100006
+0.00449662
+0.0391146
+Digit : 4
+
+0.490299
+0.00135658
+0.00501557
+0.0217608
+0.0343347
+0.229247
+0.0149816
+0.00018136
+0.000285516
+0.0128346
+Digit : 5
+
+0.220493
+0.000409183
+0.00431397
+0.0025921
+0.0781546
+0.000472735
+0.763294
+0.034059
+0.000393218
+0.0231852
+Digit : 6
+
+0.0187593
+0.00333678
+0.0656234
+0.00552757
+0.045355
+0.00282808
+0.00271086
+0.522599
+0.000675656
+0.0206193
+Digit : 7
+
+0.038778
+0.00519623
+0.0723483
+0.00263857
+0.121483
+0.0626707
+0.0317401
+0.0695594
+0.0436567
+0.000243886
+Digit : 8
+
+0.0121573
+0.0453391
+0.000133616
+0.0342912
+0.00221716
+0.267327
+0.00126913
+0.00662583
+0.00432445
+0.753963
+Digit : 9
+
+___________________________________________________________________________________________________________
+
+training size = 1800 images. nn.cpp
+0 : Frequency = 174
+1 : Frequency = 211
+2 : Frequency = 172
+3 : Frequency = 176
+4 : Frequency = 192
+5 : Frequency = 160
+6 : Frequency = 169
+7 : Frequency = 206
+8 : Frequency = 155
+9 : Frequency = 184
+
+Epoch: 1. Average Loss = 0.0439542
+Epoch: 2. Average Loss = 0.0355513
+Epoch: 3. Average Loss = 0.02921
+Epoch: 4. Average Loss = 0.024719
+Epoch: 5. Average Loss = 0.0214046
+Epoch: 6. Average Loss = 0.0187669
+Epoch: 7. Average Loss = 0.0166299
+Epoch: 8. Average Loss = 0.0149403
+Epoch: 9. Average Loss = 0.0135684
+Epoch: 10. Average Loss = 0.0124176
+Epoch: 11. Average Loss = 0.0114406
+Epoch: 12. Average Loss = 0.0105872
+Epoch: 13. Average Loss = 0.00982582
+Epoch: 14. Average Loss = 0.00911185
+Epoch: 15. Average Loss = 0.00845887
+Epoch: 16. Average Loss = 0.00788623
+Epoch: 17. Average Loss = 0.00737824
+Epoch: 18. Average Loss = 0.0069212
+Epoch: 19. Average Loss = 0.0065124
+Epoch: 20. Average Loss = 0.0061473
+Training complete.
+
+0 : Frequency = 21. Correctly predicted = 17. Incorrectly predicted = 2. Accuracy = 89.4737
+. Confidence when predicted correctly = 21.7868. Confidence when predicted incorrectly = 11.9953
+
+1 : Frequency = 26. Correctly predicted = 25. Incorrectly predicted = 1. Accuracy = 96.1538
+. Confidence when predicted correctly = 21.9006. Confidence when predicted incorrectly = 12.9534
+
+2 : Frequency = 19. Correctly predicted = 12. Incorrectly predicted = 6. Accuracy = 66.6667
+. Confidence when predicted correctly = 19.2904. Confidence when predicted incorrectly = 16.5865
+
+3 : Frequency = 21. Correctly predicted = 10. Incorrectly predicted = 2. Accuracy = 83.3333
+. Confidence when predicted correctly = 19.684. Confidence when predicted incorrectly = 12.6769
+
+4 : Frequency = 21. Correctly predicted = 23. Incorrectly predicted = 5. Accuracy = 82.1429
+. Confidence when predicted correctly = 21.179. Confidence when predicted incorrectly = 13.867
+
+5 : Frequency = 13. Correctly predicted = 13. Incorrectly predicted = 3. Accuracy = 81.25
+. Confidence when predicted correctly = 15.7208. Confidence when predicted incorrectly = 13.1152
+
+6 : Frequency = 19. Correctly predicted = 16. Incorrectly predicted = 4. Accuracy = 80
+. Confidence when predicted correctly = 20.7216. Confidence when predicted incorrectly = 12.1103
+
+7 : Frequency = 21. Correctly predicted = 22. Incorrectly predicted = 5. Accuracy = 81.4815
+. Confidence when predicted correctly = 20.4721. Confidence when predicted incorrectly = 14.4836
+
+8 : Frequency = 15. Correctly predicted = 9. Incorrectly predicted = 4. Accuracy = 69.2308
+. Confidence when predicted correctly = 19.124. Confidence when predicted incorrectly = 12.4265
+
+9 : Frequency = 23. Correctly predicted = 15. Incorrectly predicted = 5. Accuracy = 75
+. Confidence when predicted correctly = 18.6141. Confidence when predicted incorrectly = 16.2486
+
+
+Overall Accuracy = 81.407
+
+17 0 0 0 0 0 0 0 0 0
+0 25 0 0 0 0 0 1 2 0
+0 0 12 0 0 1 0 2 0 0 
+0 0 2 10 0 2 1 1 0 0
+0 0 0 0 23 0 1 0 0 4
+2 0 0 1 1 13 1 0 2 0
+0 0 3 0 1 0 16 0 0 0
+0 1 0 0 0 0 0 22 0 1
+0 0 0 1 0 0 0 0 9 0
+0 0 1 0 3 0 1 1 0 15
+
+___________________________________________________________________________________________________________
+
+training size = 2000 images (nnAdvanced.cpp)
+
+0 : Frequency = 189
+1 : Frequency = 220
+2 : Frequency = 200
+3 : Frequency = 191
+4 : Frequency = 214
+5 : Frequency = 180
+6 : Frequency = 200
+7 : Frequency = 224
+8 : Frequency = 173
+9 : Frequency = 209
+
+Epoch: 1. Average Loss = 0.045558
+Epoch: 2. Average Loss = 0.0398697
+Epoch: 3. Average Loss = 0.0354468
+Epoch: 4. Average Loss = 0.0310009
+Epoch: 5. Average Loss = 0.0266286
+Epoch: 6. Average Loss = 0.0227634
+Epoch: 7. Average Loss = 0.0194365
+Epoch: 8. Average Loss = 0.0167826
+Epoch: 9. Average Loss = 0.0146833
+Epoch: 10. Average Loss = 0.0129146
+Training complete.
+
+Time taken for training : 115.324 seconds.
+
+0 : Frequency = 17. Correctly predicted = 17. Incorrectly predicted = 0. Accuracy = 100
+. Confidence when predicted correctly = 19.2993. Confidence when predicted incorrectly = nan
+
+1 : Frequency = 28. Correctly predicted = 27. Incorrectly predicted = 1. Accuracy = 96.4286
+. Confidence when predicted correctly = 20.1088. Confidence when predicted incorrectly = 16.2015
+
+2 : Frequency = 15. Correctly predicted = 11. Incorrectly predicted = 4. Accuracy = 73.3333
+. Confidence when predicted correctly = 18.2808. Confidence when predicted incorrectly = 14.1764
+
+3 : Frequency = 16. Correctly predicted = 8. Incorrectly predicted = 8. Accuracy = 50
+. Confidence when predicted correctly = 18.0812. Confidence when predicted incorrectly = 14.9101
+
+4 : Frequency = 28. Correctly predicted = 25. Incorrectly predicted = 3. Accuracy = 89.2857
+. Confidence when predicted correctly = 18.4424. Confidence when predicted incorrectly = 14.1338
+
+5 : Frequency = 20. Correctly predicted = 16. Incorrectly predicted = 4. Accuracy = 80
+. Confidence when predicted correctly = 16.8079. Confidence when predicted incorrectly = 13.6992
+
+6 : Frequency = 20. Correctly predicted = 17. Incorrectly predicted = 3. Accuracy = 85
+. Confidence when predicted correctly = 20.0073. Confidence when predicted incorrectly = 14.3212
+
+7 : Frequency = 24. Correctly predicted = 18. Incorrectly predicted = 6. Accuracy = 75
+. Confidence when predicted correctly = 18.9061. Confidence when predicted incorrectly = 13.7804
+
+8 : Frequency = 10. Correctly predicted = 8. Incorrectly predicted = 2. Accuracy = 80
+. Confidence when predicted correctly = 16.4085. Confidence when predicted incorrectly = 14.4033
+
+9 : Frequency = 21. Correctly predicted = 14. Incorrectly predicted = 7. Accuracy = 66.6667
+. Confidence when predicted correctly = 15.6063. Confidence when predicted incorrectly = 14.7491
+
+
+Overall Accuracy = 80.9045
+
+___________________________________________________________________________________________________________
+2000 images
+
+0 : Frequency = 189
+1 : Frequency = 220
+2 : Frequency = 200
+3 : Frequency = 191
+4 : Frequency = 214
+5 : Frequency = 180
+6 : Frequency = 200
+7 : Frequency = 224
+8 : Frequency = 173
+9 : Frequency = 209
+
+Epoch: 1. Average Loss = 0.0446295
+Epoch: 2. Average Loss = 0.0365091
+Epoch: 3. Average Loss = 0.0293459
+Epoch: 4. Average Loss = 0.0241072
+Epoch: 5. Average Loss = 0.0202056
+Epoch: 6. Average Loss = 0.0173625
+Epoch: 7. Average Loss = 0.0152516
+Epoch: 8. Average Loss = 0.013539
+Epoch: 9. Average Loss = 0.0120656
+Epoch: 10. Average Loss = 0.0107871
+Epoch: 11. Average Loss = 0.00972338
+Epoch: 12. Average Loss = 0.00884746
+Epoch: 13. Average Loss = 0.00811432
+Epoch: 14. Average Loss = 0.00748501
+Epoch: 15. Average Loss = 0.00692661
+Epoch: 16. Average Loss = 0.00642486
+Epoch: 17. Average Loss = 0.00597781
+Epoch: 18. Average Loss = 0.00557723
+Epoch: 19. Average Loss = 0.00521961
+Epoch: 20. Average Loss = 0.00490709
+Training complete.
+
+Time taken for training : 248.136 seconds.
+
+0 : Frequency = 17. Correctly predicted = 16. Incorrectly predicted = 1. Accuracy = 94.1176
+. Confidence when predicted correctly = 21.8249. Confidence when predicted incorrectly = 19.1503
+
+1 : Frequency = 28. Correctly predicted = 26. Incorrectly predicted = 2. Accuracy = 92.8571
+. Confidence when predicted correctly = 20.9523. Confidence when predicted incorrectly = 13.0843
+
+2 : Frequency = 15. Correctly predicted = 11. Incorrectly predicted = 4. Accuracy = 73.3333
+. Confidence when predicted correctly = 20.6856. Confidence when predicted incorrectly = 20.4384
+
+3 : Frequency = 16. Correctly predicted = 13. Incorrectly predicted = 3. Accuracy = 81.25
+. Confidence when predicted correctly = 19.7157. Confidence when predicted incorrectly = 15.9766
+
+4 : Frequency = 28. Correctly predicted = 25. Incorrectly predicted = 3. Accuracy = 89.2857
+. Confidence when predicted correctly = 20.5241. Confidence when predicted incorrectly = 14.9233
+
+5 : Frequency = 20. Correctly predicted = 17. Incorrectly predicted = 3. Accuracy = 85
+. Confidence when predicted correctly = 18.9785. Confidence when predicted incorrectly = 16.3327
+
+6 : Frequency = 20. Correctly predicted = 19. Incorrectly predicted = 1. Accuracy = 95
+. Confidence when predicted correctly = 21.0481. Confidence when predicted incorrectly = 11.8526
+
+7 : Frequency = 24. Correctly predicted = 19. Incorrectly predicted = 5. Accuracy = 79.1667
+. Confidence when predicted correctly = 20.2702. Confidence when predicted incorrectly = 16.9451
+
+8 : Frequency = 10. Correctly predicted = 10. Incorrectly predicted = 0. Accuracy = 100
+. Confidence when predicted correctly = 19.5827. Confidence when predicted incorrectly = nan
+
+9 : Frequency = 21. Correctly predicted = 19. Incorrectly predicted = 2. Accuracy = 90.4762
+. Confidence when predicted correctly = 20.3255. Confidence when predicted incorrectly = 15.4697
+
+
+Overall Accuracy = 87.9397
+
+___________________________________________________________________________________________________________
+2000 images. ADDED BIASES
+0 : Frequency = 189
+1 : Frequency = 220
+2 : Frequency = 200
+3 : Frequency = 191
+4 : Frequency = 214
+5 : Frequency = 180
+6 : Frequency = 200
+7 : Frequency = 224
+8 : Frequency = 173
+9 : Frequency = 209
+
+Epoch: 1. Average Loss = 0.0450999
+Epoch: 2. Average Loss = 0.0449081
+Epoch: 3. Average Loss = 0.0446486
+Epoch: 4. Average Loss = 0.0441495
+Epoch: 5. Average Loss = 0.0430612
+Epoch: 6. Average Loss = 0.0403033
+Epoch: 7. Average Loss = 0.0425912
+Epoch: 8. Average Loss = 0.0450025
+Epoch: 9. Average Loss = 0.0449981
+Epoch: 10. Average Loss = 0.0449947
+Epoch: 11. Average Loss = 0.0449884
+Epoch: 12. Average Loss = 0.0413604
+Epoch: 13. Average Loss = 0.0362657
+Epoch: 14. Average Loss = 0.0326627
+Epoch: 15. Average Loss = 0.029823
+Epoch: 16. Average Loss = 0.0272177
+Epoch: 17. Average Loss = 0.0260787
+Epoch: 18. Average Loss = 0.024131
+Epoch: 19. Average Loss = 0.0229438
+Epoch: 20. Average Loss = 0.0221095
+Training complete.
+
+Time taken for training : 283.191 seconds.
+
+0 : Frequency = 17. Correctly predicted = 14. Incorrectly predicted = 3. Accuracy = 82.3529
+. Confidence when predicted correctly = 18.8585. Confidence when predicted incorrectly = 11.6463
+
+1 : Frequency = 28. Correctly predicted = 24. Incorrectly predicted = 4. Accuracy = 85.7143
+. Confidence when predicted correctly = 19.8703. Confidence when predicted incorrectly = 12.3207
+
+2 : Frequency = 15. Correctly predicted = 6. Incorrectly predicted = 9. Accuracy = 40
+. Confidence when predicted correctly = 13.6951. Confidence when predicted incorrectly = 14.0346
+
+3 : Frequency = 16. Correctly predicted = 10. Incorrectly predicted = 6. Accuracy = 62.5
+. Confidence when predicted correctly = 12.6676. Confidence when predicted incorrectly = 11.873
+
+4 : Frequency = 28. Correctly predicted = 19. Incorrectly predicted = 9. Accuracy = 67.8571
+. Confidence when predicted correctly = 19.0002. Confidence when predicted incorrectly = 13.8784
+
+5 : Frequency = 20. Correctly predicted = 10. Incorrectly predicted = 10. Accuracy = 50
+. Confidence when predicted correctly = 12.1317. Confidence when predicted incorrectly = 13.2756
+
+6 : Frequency = 20. Correctly predicted = 18. Incorrectly predicted = 2. Accuracy = 90
+. Confidence when predicted correctly = 17.7699. Confidence when predicted incorrectly = 14.7773
+
+7 : Frequency = 24. Correctly predicted = 17. Incorrectly predicted = 7. Accuracy = 70.8333
+. Confidence when predicted correctly = 18.8047. Confidence when predicted incorrectly = 14.8086
+
+8 : Frequency = 10. Correctly predicted = 8. Incorrectly predicted = 2. Accuracy = 80
+. Confidence when predicted correctly = 13.9625. Confidence when predicted incorrectly = 12.8155
+
+9 : Frequency = 21. Correctly predicted = 15. Incorrectly predicted = 6. Accuracy = 71.4286
+. Confidence when predicted correctly = 16.9447. Confidence when predicted incorrectly = 13.3866
+
+
+Overall Accuracy = 70.8543
+
+___________________________________________________________________________________________________________
+5000 images. BIAS CORRECTED (n[k+1][i] += n[k][j]*w[k][i][j]; and not + b[k][j])
+
+0 : Frequency = 501
+1 : Frequency = 560
+2 : Frequency = 478
+3 : Frequency = 515
+4 : Frequency = 500
+5 : Frequency = 440
+6 : Frequency = 505
+7 : Frequency = 545
+8 : Frequency = 450
+9 : Frequency = 506
+
+Epoch: 1. Average Loss = 0.0414496
+Epoch: 2. Average Loss = 0.0315039
+Epoch: 3. Average Loss = 0.0255321
+Epoch: 4. Average Loss = 0.0217771
+Epoch: 5. Average Loss = 0.0198112
+Epoch: 6. Average Loss = 0.0195476
+Epoch: 7. Average Loss = 0.02021
+Epoch: 8. Average Loss = 0.0185145
+Epoch: 9. Average Loss = 0.0179282
+Epoch: 10. Average Loss = 0.0167714
+Epoch: 11. Average Loss = 0.0171034
+Epoch: 12. Average Loss = 0.0165249
+Epoch: 13. Average Loss = 0.0171588
+Epoch: 14. Average Loss = 0.0157644
+Epoch: 15. Average Loss = 0.0176072
+Epoch: 16. Average Loss = 0.0185422
+Epoch: 17. Average Loss = 0.0164385
+Epoch: 18. Average Loss = 0.0166687
+Epoch: 19. Average Loss = 0.017221
+Epoch: 20. Average Loss = 0.0152812
+Training complete.
+
+Time taken for training : 676.041 seconds.
+
+0 : Frequency = 33. Correctly predicted = 28. Incorrectly predicted = 5. Accuracy = 84.8485
+. Confidence when predicted correctly = 21.2467. Confidence when predicted incorrectly = 18.7692
+
+1 : Frequency = 57. Correctly predicted = 52. Incorrectly predicted = 5. Accuracy = 91.2281
+. Confidence when predicted correctly = 20.7154. Confidence when predicted incorrectly = 14.9734
+
+2 : Frequency = 44. Correctly predicted = 24. Incorrectly predicted = 20. Accuracy = 54.5455
+. Confidence when predicted correctly = 17.9491. Confidence when predicted incorrectly = 15.1975
+
+3 : Frequency = 35. Correctly predicted = 26. Incorrectly predicted = 9. Accuracy = 74.2857
+. Confidence when predicted correctly = 20.3827. Confidence when predicted incorrectly = 15.3818
+
+4 : Frequency = 45. Correctly predicted = 44. Incorrectly predicted = 1. Accuracy = 97.7778
+. Confidence when predicted correctly = 21.3996. Confidence when predicted incorrectly = 15.2101
+
+5 : Frequency = 42. Correctly predicted = 27. Incorrectly predicted = 15. Accuracy = 64.2857
+. Confidence when predicted correctly = 20.7241. Confidence when predicted incorrectly = 15.3584
+
+6 : Frequency = 34. Correctly predicted = 24. Incorrectly predicted = 10. Accuracy = 70.5882
+. Confidence when predicted correctly = 21.6132. Confidence when predicted incorrectly = 19.4423
+
+7 : Frequency = 41. Correctly predicted = 34. Incorrectly predicted = 7. Accuracy = 82.9268
+. Confidence when predicted correctly = 20.0044. Confidence when predicted incorrectly = 15.2295
+
+8 : Frequency = 27. Correctly predicted = 18. Incorrectly predicted = 9. Accuracy = 66.6667
+. Confidence when predicted correctly = 19.5347. Confidence when predicted incorrectly = 15.744
+
+9 : Frequency = 41. Correctly predicted = 31. Incorrectly predicted = 10. Accuracy = 75.6098
+. Confidence when predicted correctly = 19.4786. Confidence when predicted incorrectly = 16.2992
+
+
+Overall Accuracy = 77.193
+
+___________________________________________________________________________________________________________
+
+5000 images. BACKPROP OPTIMIZED (delC_by_delNin[][] calculation placed outside j loop).
+0 : Frequency = 501
+1 : Frequency = 560
+2 : Frequency = 478
+3 : Frequency = 515
+4 : Frequency = 500
+5 : Frequency = 440
+6 : Frequency = 505
+7 : Frequency = 545
+8 : Frequency = 450
+9 : Frequency = 506
+
+Epoch: 1. Average Loss = 0.038607
+Epoch: 2. Average Loss = 0.0252888
+Epoch: 3. Average Loss = 0.0186279
+Epoch: 4. Average Loss = 0.0147481
+Epoch: 5. Average Loss = 0.012196
+Epoch: 6. Average Loss = 0.0103421
+Epoch: 7. Average Loss = 0.00899858
+Epoch: 8. Average Loss = 0.00797265
+Epoch: 9. Average Loss = 0.00724779
+Epoch: 10. Average Loss = 0.00668957
+Epoch: 11. Average Loss = 0.00620887
+Epoch: 12. Average Loss = 0.00579578
+Epoch: 13. Average Loss = 0.00545809
+Epoch: 14. Average Loss = 0.00516733
+Epoch: 15. Average Loss = 0.00490614
+Epoch: 16. Average Loss = 0.0046774
+Epoch: 17. Average Loss = 0.00446671
+Epoch: 18. Average Loss = 0.0042955
+Epoch: 19. Average Loss = 0.00412559
+Epoch: 20. Average Loss = 0.00395859
+Epoch: 21. Average Loss = 0.0038282
+Epoch: 22. Average Loss = 0.00371132
+Epoch: 23. Average Loss = 0.00359845
+Epoch: 24. Average Loss = 0.00349064
+Epoch: 25. Average Loss = 0.00339596
+Training complete.
+
+Time taken for training : 101.598 seconds.
+
+0 : Frequency = 33. Correctly predicted = 32. Incorrectly predicted = 1. Accuracy = 96.9697
+. Confidence when predicted correctly = 21.4893. Confidence when predicted incorrectly = 15.4189
+
+1 : Frequency = 57. Correctly predicted = 57. Incorrectly predicted = 0. Accuracy = 100
+. Confidence when predicted correctly = 22.4524. Confidence when predicted incorrectly = nan
+
+2 : Frequency = 44. Correctly predicted = 35. Incorrectly predicted = 9. Accuracy = 79.5455
+. Confidence when predicted correctly = 22.2669. Confidence when predicted incorrectly = 18.4399
+
+3 : Frequency = 35. Correctly predicted = 31. Incorrectly predicted = 4. Accuracy = 88.5714
+. Confidence when predicted correctly = 21.5886. Confidence when predicted incorrectly = 18.2991
+
+4 : Frequency = 45. Correctly predicted = 42. Incorrectly predicted = 3. Accuracy = 93.3333
+. Confidence when predicted correctly = 22.6256. Confidence when predicted incorrectly = 16.8394
+
+5 : Frequency = 42. Correctly predicted = 33. Incorrectly predicted = 9. Accuracy = 78.5714
+. Confidence when predicted correctly = 20.9672. Confidence when predicted incorrectly = 17.1084
+
+6 : Frequency = 34. Correctly predicted = 29. Incorrectly predicted = 5. Accuracy = 85.2941
+. Confidence when predicted correctly = 21.6331. Confidence when predicted incorrectly = 20.2709
+
+7 : Frequency = 41. Correctly predicted = 36. Incorrectly predicted = 5. Accuracy = 87.8049
+. Confidence when predicted correctly = 21.5748. Confidence when predicted incorrectly = 18.2381
+
+8 : Frequency = 27. Correctly predicted = 22. Incorrectly predicted = 5. Accuracy = 81.4815
+. Confidence when predicted correctly = 21.5509. Confidence when predicted incorrectly = 18.089
+
+9 : Frequency = 41. Correctly predicted = 34. Incorrectly predicted = 7. Accuracy = 82.9268
+. Confidence when predicted correctly = 20.3372. Confidence when predicted incorrectly = 17.5376
+
+
+Overall Accuracy = 87.9699
+
+___________________________________________________________________________________________________________
+
+10000 images
+Loading Datsets...
+Datasets Loading Complete.
+
+0 : Frequency = 1001
+1 : Frequency = 1127
+2 : Frequency = 991
+3 : Frequency = 1032
+4 : Frequency = 980
+5 : Frequency = 863
+6 : Frequency = 1014
+7 : Frequency = 1070
+8 : Frequency = 944
+9 : Frequency = 978
+
+Epoch: 1. Average Training Loss = 0.0481269. Average Validation Loss = 0.0442921
+Epoch: 2. Average Training Loss = 0.0438729. Average Validation Loss = 0.0430557
+Epoch: 3. Average Training Loss = 0.0422707. Average Validation Loss = 0.0406746
+Epoch: 4. Average Training Loss = 0.0394916. Average Validation Loss = 0.0375392
+Epoch: 5. Average Training Loss = 0.0366184. Average Validation Loss = 0.0347406
+Epoch: 6. Average Training Loss = 0.0340455. Average Validation Loss = 0.0319821
+Epoch: 7. Average Training Loss = 0.031392. Average Validation Loss = 0.0288732
+Epoch: 8. Average Training Loss = 0.028396. Average Validation Loss = 0.0255599
+Epoch: 9. Average Training Loss = 0.0253893. Average Validation Loss = 0.0226121
+Epoch: 10. Average Training Loss = 0.0227993. Average Validation Loss = 0.0201419
+Epoch: 11. Average Training Loss = 0.0206617. Average Validation Loss = 0.0180937
+Epoch: 12. Average Training Loss = 0.0189121. Average Validation Loss = 0.0164246
+Epoch: 13. Average Training Loss = 0.0174951. Average Validation Loss = 0.0150804
+Epoch: 14. Average Training Loss = 0.0163427. Average Validation Loss = 0.0139899
+Epoch: 15. Average Training Loss = 0.0153889. Average Validation Loss = 0.0130847
+Epoch: 16. Average Training Loss = 0.0145793. Average Validation Loss = 0.0123127
+Epoch: 17. Average Training Loss = 0.013873. Average Validation Loss = 0.0116377
+Epoch: 18. Average Training Loss = 0.0132426. Average Validation Loss = 0.0110375
+Epoch: 19. Average Training Loss = 0.0126712. Average Validation Loss = 0.0105007
+Epoch: 20. Average Training Loss = 0.0121484. Average Validation Loss = 0.0100223
+Epoch: 21. Average Training Loss = 0.0116672. Average Validation Loss = 0.0096007
+Epoch: 22. Average Training Loss = 0.0112242. Average Validation Loss = 0.00923321
+Epoch: 23. Average Training Loss = 0.0108185. Average Validation Loss = 0.00891485
+Epoch: 24. Average Training Loss = 0.0104493. Average Validation Loss = 0.00863907
+Epoch: 25. Average Training Loss = 0.0101146. Average Validation Loss = 0.00839914
+Training complete.
+
+Time taken for training : 231.657 seconds.
+
+0 : Frequency = 85. Correctly predicted = 83. Incorrectly predicted = 2. Accuracy = 97.6471
+. Confidence when predicted correctly = 20.1679. Confidence when predicted incorrectly = 14.7414
+
+1 : Frequency = 126. Correctly predicted = 121. Incorrectly predicted = 5. Accuracy = 96.0317
+. Confidence when predicted correctly = 20.8524. Confidence when predicted incorrectly = 12.3356
+
+2 : Frequency = 116. Correctly predicted = 96. Incorrectly predicted = 20. Accuracy = 82.7586
+. Confidence when predicted correctly = 19.6246. Confidence when predicted incorrectly = 15.5868
+
+3 : Frequency = 107. Correctly predicted = 79. Incorrectly predicted = 28. Accuracy = 73.8318
+. Confidence when predicted correctly = 19.4711. Confidence when predicted incorrectly = 15.169
+
+4 : Frequency = 110. Correctly predicted = 98. Incorrectly predicted = 12. Accuracy = 89.0909
+. Confidence when predicted correctly = 19.5252. Confidence when predicted incorrectly = 16.3127
+
+5 : Frequency = 87. Correctly predicted = 64. Incorrectly predicted = 23. Accuracy = 73.5632
+. Confidence when predicted correctly = 15.8737. Confidence when predicted incorrectly = 16.0101
+
+6 : Frequency = 87. Correctly predicted = 77. Incorrectly predicted = 10. Accuracy = 88.5057
+. Confidence when predicted correctly = 20.3355. Confidence when predicted incorrectly = 15.8689
+
+7 : Frequency = 99. Correctly predicted = 81. Incorrectly predicted = 18. Accuracy = 81.8182
+. Confidence when predicted correctly = 19.833. Confidence when predicted incorrectly = 13.9545
+
+8 : Frequency = 89. Correctly predicted = 71. Incorrectly predicted = 18. Accuracy = 79.7753
+. Confidence when predicted correctly = 18.7819. Confidence when predicted incorrectly = 14.8813
+
+9 : Frequency = 94. Correctly predicted = 78. Incorrectly predicted = 16. Accuracy = 82.9787
+. Confidence when predicted correctly = 18.4893. Confidence when predicted incorrectly = 15.4311
+
+
+Overall Accuracy = 84.8
+
+___________________________________________________________________________________________________________
+
+10000 images, 0.05 lr
+
+Loading Datasets...
+Datasets' Loading Complete.
+
+0 : Frequency = 1001
+1 : Frequency = 1127
+2 : Frequency = 991
+3 : Frequency = 1032
+4 : Frequency = 980
+5 : Frequency = 863
+6 : Frequency = 1014
+7 : Frequency = 1070
+8 : Frequency = 944
+9 : Frequency = 978
+
+Epoch: 1. Average Training Loss = 0.0404558. Average Validation Loss = 0.0314459
+Epoch: 2. Average Training Loss = 0.0279954. Average Validation Loss = 0.0222285
+Epoch: 3. Average Training Loss = 0.0198637. Average Validation Loss = 0.0148088
+Epoch: 4. Average Training Loss = 0.014168. Average Validation Loss = 0.0113292
+Epoch: 5. Average Training Loss = 0.0113608. Average Validation Loss = 0.00968939
+Epoch: 6. Average Training Loss = 0.00980526. Average Validation Loss = 0.00875446
+Epoch: 7. Average Training Loss = 0.00880161. Average Validation Loss = 0.00814088
+Epoch: 8. Average Training Loss = 0.00808364. Average Validation Loss = 0.00773401
+Epoch: 9. Average Training Loss = 0.00751824. Average Validation Loss = 0.00744045
+Epoch: 10. Average Training Loss = 0.00705338. Average Validation Loss = 0.00720778
+Epoch: 11. Average Training Loss = 0.00666935. Average Validation Loss = 0.00699823
+Epoch: 12. Average Training Loss = 0.0063572. Average Validation Loss = 0.00681575
+Epoch: 13. Average Training Loss = 0.00609127. Average Validation Loss = 0.00664947
+Epoch: 14. Average Training Loss = 0.00585593. Average Validation Loss = 0.00650375
+Epoch: 15. Average Training Loss = 0.00564253. Average Validation Loss = 0.00637925
+Epoch: 16. Average Training Loss = 0.00544228. Average Validation Loss = 0.00625772
+Epoch: 17. Average Training Loss = 0.00525627. Average Validation Loss = 0.00613871
+Epoch: 18. Average Training Loss = 0.00508411. Average Validation Loss = 0.00603016
+Epoch: 19. Average Training Loss = 0.00492353. Average Validation Loss = 0.00592798
+Epoch: 20. Average Training Loss = 0.00477358. Average Validation Loss = 0.00581901
+Epoch: 21. Average Training Loss = 0.00463456. Average Validation Loss = 0.00572024
+Epoch: 22. Average Training Loss = 0.0045043. Average Validation Loss = 0.00564623
+Epoch: 23. Average Training Loss = 0.00438053. Average Validation Loss = 0.00559281
+Epoch: 24. Average Training Loss = 0.00426293. Average Validation Loss = 0.00555636
+Epoch: 25. Average Training Loss = 0.00415308. Average Validation Loss = 0.00553598
+Epoch: 26. Average Training Loss = 0.00405104. Average Validation Loss = 0.00552204
+Epoch: 27. Average Training Loss = 0.00395477. Average Validation Loss = 0.00549944
+Epoch: 28. Average Training Loss = 0.00386338. Average Validation Loss = 0.00547401
+Epoch: 29. Average Training Loss = 0.00377665. Average Validation Loss = 0.00544385
+Epoch: 30. Average Training Loss = 0.00369359. Average Validation Loss = 0.00540735
+Epoch: 31. Average Training Loss = 0.00361457. Average Validation Loss = 0.00537426
+Epoch: 32. Average Training Loss = 0.00354064. Average Validation Loss = 0.00534116
+Epoch: 33. Average Training Loss = 0.00347048. Average Validation Loss = 0.00530288
+Epoch: 34. Average Training Loss = 0.00340436. Average Validation Loss = 0.00525926
+Epoch: 35. Average Training Loss = 0.00334282. Average Validation Loss = 0.00520956
+Epoch: 36. Average Training Loss = 0.00328446. Average Validation Loss = 0.00515577
+Epoch: 37. Average Training Loss = 0.00322792. Average Validation Loss = 0.00511887
+Epoch: 38. Average Training Loss = 0.00317147. Average Validation Loss = 0.00508788
+Epoch: 39. Average Training Loss = 0.00311827. Average Validation Loss = 0.0050597
+Epoch: 40. Average Training Loss = 0.003069. Average Validation Loss = 0.00503584
+Epoch: 41. Average Training Loss = 0.0030216. Average Validation Loss = 0.00501218
+Epoch: 42. Average Training Loss = 0.00297727. Average Validation Loss = 0.00499278
+Epoch: 43. Average Training Loss = 0.00293558. Average Validation Loss = 0.00497823
+Epoch: 44. Average Training Loss = 0.002896. Average Validation Loss = 0.00496608
+Epoch: 45. Average Training Loss = 0.00285684. Average Validation Loss = 0.0049638
+Epoch: 46. Average Training Loss = 0.0028188. Average Validation Loss = 0.00497884
+Training complete.
+
+Time taken for training : 460.715 seconds.
+
+0 : Frequency = 85. Correctly predicted = 80. Incorrectly predicted = 5. Accuracy = 94.1176
+. Confidence when predicted correctly = 22.5782. Confidence when predicted incorrectly = 17.6901
+
+1 : Frequency = 126. Correctly predicted = 122. Incorrectly predicted = 4. Accuracy = 96.8254
+. Confidence when predicted correctly = 22.8384. Confidence when predicted incorrectly = 13.3821
+
+2 : Frequency = 116. Correctly predicted = 101. Incorrectly predicted = 15. Accuracy = 87.069
+. Confidence when predicted correctly = 21.6848. Confidence when predicted incorrectly = 17.3896
+
+3 : Frequency = 107. Correctly predicted = 88. Incorrectly predicted = 19. Accuracy = 82.243
+. Confidence when predicted correctly = 21.8907. Confidence when predicted incorrectly = 17.3039
+
+4 : Frequency = 110. Correctly predicted = 102. Incorrectly predicted = 8. Accuracy = 92.7273
+. Confidence when predicted correctly = 21.8251. Confidence when predicted incorrectly = 17.4491
+
+5 : Frequency = 87. Correctly predicted = 70. Incorrectly predicted = 17. Accuracy = 80.4598
+. Confidence when predicted correctly = 22.2265. Confidence when predicted incorrectly = 16.1613
+
+6 : Frequency = 87. Correctly predicted = 78. Incorrectly predicted = 9. Accuracy = 89.6552
+. Confidence when predicted correctly = 22.1065. Confidence when predicted incorrectly = 16.2273
+
+7 : Frequency = 99. Correctly predicted = 90. Incorrectly predicted = 9. Accuracy = 90.9091
+. Confidence when predicted correctly = 22.132. Confidence when predicted incorrectly = 17.1985
+
+8 : Frequency = 89. Correctly predicted = 80. Incorrectly predicted = 9. Accuracy = 89.8876
+. Confidence when predicted correctly = 21.9614. Confidence when predicted incorrectly = 17.0392
+
+9 : Frequency = 94. Correctly predicted = 81. Incorrectly predicted = 13. Accuracy = 86.1702
+. Confidence when predicted correctly = 21.8019. Confidence when predicted incorrectly = 16.2974
+
+
+Overall Accuracy = 89.2
+
+___________________________________________________________________________________________________________
+10000 images, lr = 0.0005, init_b to 0.0f, normalisation [-1, 1], Leaky RELU (0.001f)
+Loading Datasets...
+Datasets' Loading Complete.
+
+0 : Frequency = 1001
+1 : Frequency = 1127
+2 : Frequency = 991
+3 : Frequency = 1032
+4 : Frequency = 980
+5 : Frequency = 863
+6 : Frequency = 1014
+7 : Frequency = 1070
+8 : Frequency = 944
+9 : Frequency = 978
+
+Epoch: 1. Average Training Loss = 0.045558. Average Validation Loss = 0.0439504
+Epoch: 2. Average Training Loss = 0.041747. Average Validation Loss = 0.0376516
+Epoch: 3. Average Training Loss = 0.0349152. Average Validation Loss = 0.0296435
+Epoch: 4. Average Training Loss = 0.0274629. Average Validation Loss = 0.0225015
+Epoch: 5. Average Training Loss = 0.0227. Average Validation Loss = 0.0192754
+Epoch: 6. Average Training Loss = 0.0201185. Average Validation Loss = 0.0172086
+Epoch: 7. Average Training Loss = 0.01785. Average Validation Loss = 0.0152801
+Epoch: 8. Average Training Loss = 0.0162473. Average Validation Loss = 0.0140633
+Epoch: 9. Average Training Loss = 0.0149935. Average Validation Loss = 0.013069
+Epoch: 10. Average Training Loss = 0.0139347. Average Validation Loss = 0.012257
+Epoch: 11. Average Training Loss = 0.0130559. Average Validation Loss = 0.0115868
+Epoch: 12. Average Training Loss = 0.0123558. Average Validation Loss = 0.011057
+Epoch: 13. Average Training Loss = 0.0118012. Average Validation Loss = 0.0106723
+Epoch: 14. Average Training Loss = 0.0113563. Average Validation Loss = 0.0103946
+Epoch: 15. Average Training Loss = 0.0109895. Average Validation Loss = 0.0101654
+Epoch: 16. Average Training Loss = 0.0106807. Average Validation Loss = 0.00994149
+Epoch: 17. Average Training Loss = 0.0104029. Average Validation Loss = 0.00975256
+Epoch: 18. Average Training Loss = 0.0101551. Average Validation Loss = 0.00960441
+Epoch: 19. Average Training Loss = 0.00993176. Average Validation Loss = 0.00947196
+Epoch: 20. Average Training Loss = 0.00972576. Average Validation Loss = 0.00928757
+Epoch: 21. Average Training Loss = 0.00952597. Average Validation Loss = 0.00914584
+Epoch: 22. Average Training Loss = 0.0093366. Average Validation Loss = 0.00902036
+Epoch: 23. Average Training Loss = 0.00916101. Average Validation Loss = 0.00892142
+Epoch: 24. Average Training Loss = 0.00899075. Average Validation Loss = 0.00882236
+Epoch: 25. Average Training Loss = 0.0088242. Average Validation Loss = 0.00881512
+Epoch: 26. Average Training Loss = 0.00866443. Average Validation Loss = 0.00871661
+Epoch: 27. Average Training Loss = 0.00850987. Average Validation Loss = 0.00863149
+Epoch: 28. Average Training Loss = 0.00836433. Average Validation Loss = 0.00853226
+Epoch: 29. Average Training Loss = 0.00822921. Average Validation Loss = 0.00842744
+Epoch: 30. Average Training Loss = 0.00809648. Average Validation Loss = 0.00831371
+Training complete.
+
+Time taken for training : 241.209 seconds.
+
+0 : Frequency = 85. Correctly predicted = 83. Incorrectly predicted = 2. Accuracy = 97.6471
+. Confidence when predicted correctly = 21.4854. Confidence when predicted incorrectly = 15.2536
+
+1 : Frequency = 126. Correctly predicted = 125. Incorrectly predicted = 1. Accuracy = 99.2064
+. Confidence when predicted correctly = 21.3519. Confidence when predicted incorrectly = 16.6743
+
+2 : Frequency = 116. Correctly predicted = 99. Incorrectly predicted = 17. Accuracy = 85.3448
+. Confidence when predicted correctly = 21.7933. Confidence when predicted incorrectly = 14.8746
+
+3 : Frequency = 107. Correctly predicted = 86. Incorrectly predicted = 21. Accuracy = 80.3738
+. Confidence when predicted correctly = 20.1952. Confidence when predicted incorrectly = 14.9192
+
+4 : Frequency = 110. Correctly predicted = 97. Incorrectly predicted = 13. Accuracy = 88.1818
+. Confidence when predicted correctly = 20.4441. Confidence when predicted incorrectly = 15.8931
+
+5 : Frequency = 87. Correctly predicted = 68. Incorrectly predicted = 19. Accuracy = 78.1609
+. Confidence when predicted correctly = 18.8752. Confidence when predicted incorrectly = 15.7244
+
+6 : Frequency = 87. Correctly predicted = 79. Incorrectly predicted = 8. Accuracy = 90.8046
+. Confidence when predicted correctly = 20.5969. Confidence when predicted incorrectly = 16.6415
+
+7 : Frequency = 99. Correctly predicted = 82. Incorrectly predicted = 17. Accuracy = 82.8283
+. Confidence when predicted correctly = 19.9549. Confidence when predicted incorrectly = 15.6409
+
+8 : Frequency = 89. Correctly predicted = 79. Incorrectly predicted = 10. Accuracy = 88.764
+. Confidence when predicted correctly = 22.035. Confidence when predicted incorrectly = 13.84
+
+9 : Frequency = 94. Correctly predicted = 85. Incorrectly predicted = 9. Accuracy = 90.4255
+. Confidence when predicted correctly = 19.5834. Confidence when predicted incorrectly = 14.7696
+
+
+Overall Accuracy = 88.3
+
+___________________________________________________________________________________________________________
+5000 images. (784, 64, 32, 10). sigmoid, lr = 0.1
+Loading Datasets...
+Datasets' Loading Complete.
+
+0 : Frequency = 479
+1 : Frequency = 563
+2 : Frequency = 488
+3 : Frequency = 493
+4 : Frequency = 535
+5 : Frequency = 434
+6 : Frequency = 501
+7 : Frequency = 550
+8 : Frequency = 462
+9 : Frequency = 495
+
+Epoch: 1. Average Training Loss = 0.0378359. Average Validation Loss = 0.0412305. Validation Accuracy = 56.6 %.
+Epoch: 2. Average Training Loss = 0.0267. Average Validation Loss = 0.0398274. Validation Accuracy = 66 %.
+Epoch: 3. Average Training Loss = 0.0221888. Average Validation Loss = 0.0388444. Validation Accuracy = 76.4 %.
+Epoch: 4. Average Training Loss = 0.0184449. Average Validation Loss = 0.038111. Validation Accuracy = 79 %.
+Epoch: 5. Average Training Loss = 0.0155033. Average Validation Loss = 0.0375658. Validation Accuracy = 80.4 %.
+Epoch: 6. Average Training Loss = 0.0127817. Average Validation Loss = 0.0369425. Validation Accuracy = 85 %.
+Epoch: 7. Average Training Loss = 0.0103956. Average Validation Loss = 0.0364255. Validation Accuracy = 87.4 %.
+Epoch: 8. Average Training Loss = 0.00888517. Average Validation Loss = 0.036112. Validation Accuracy = 88.6 %.
+Epoch: 9. Average Training Loss = 0.00774733. Average Validation Loss = 0.0358819. Validation Accuracy = 89 %.
+Epoch: 10. Average Training Loss = 0.00687309. Average Validation Loss = 0.0356998. Validation Accuracy = 89.4 %.
+Epoch: 11. Average Training Loss = 0.00617381. Average Validation Loss = 0.0355429. Validation Accuracy = 89.6 %.
+Epoch: 12. Average Training Loss = 0.00560064. Average Validation Loss = 0.0354252. Validation Accuracy = 90 %.
+Epoch: 13. Average Training Loss = 0.00509402. Average Validation Loss = 0.035328. Validation Accuracy = 90.4 %.
+Epoch: 14. Average Training Loss = 0.00467618. Average Validation Loss = 0.0352521. Validation Accuracy = 90.6 %.
+Epoch: 15. Average Training Loss = 0.0043275. Average Validation Loss = 0.0351832. Validation Accuracy = 90.4 %.
+Epoch: 16. Average Training Loss = 0.00402601. Average Validation Loss = 0.0351269. Validation Accuracy = 90.6 %.
+Epoch: 17. Average Training Loss = 0.00375997. Average Validation Loss = 0.035082. Validation Accuracy = 90.6 %.
+Epoch: 18. Average Training Loss = 0.00352724. Average Validation Loss = 0.0350456. Validation Accuracy = 90.4 %.
+Epoch: 19. Average Training Loss = 0.00331518. Average Validation Loss = 0.0350013. Validation Accuracy = 90.4 %.
+Epoch: 20. Average Training Loss = 0.00312874. Average Validation Loss = 0.0349583. Validation Accuracy = 90.4 %.
+Training complete.
+
+Time taken for training : 368.705 seconds.
+
+0 : Frequency = 42. Correctly predicted = 39. Incorrectly predicted = 3. Accuracy = 92.8571
+. Confidence when predicted correctly = 21.8008. Confidence when predicted incorrectly = 15.6402
+
+1 : Frequency = 67. Correctly predicted = 67. Incorrectly predicted = 0. Accuracy = 100
+. Confidence when predicted correctly = 22.2874. Confidence when predicted incorrectly = nan
+
+2 : Frequency = 55. Correctly predicted = 48. Incorrectly predicted = 7. Accuracy = 87.2727
+. Confidence when predicted correctly = 20.5538. Confidence when predicted incorrectly = 17.2997
+
+3 : Frequency = 45. Correctly predicted = 35. Incorrectly predicted = 10. Accuracy = 77.7778
+. Confidence when predicted correctly = 21.0676. Confidence when predicted incorrectly = 13.7336
+
+4 : Frequency = 55. Correctly predicted = 50. Incorrectly predicted = 5. Accuracy = 90.9091
+. Confidence when predicted correctly = 21.8231. Confidence when predicted incorrectly = 14.8967
+
+5 : Frequency = 50. Correctly predicted = 39. Incorrectly predicted = 11. Accuracy = 78
+. Confidence when predicted correctly = 20.2335. Confidence when predicted incorrectly = 18.9396
+
+6 : Frequency = 43. Correctly predicted = 36. Incorrectly predicted = 7. Accuracy = 83.7209
+. Confidence when predicted correctly = 21.3984. Confidence when predicted incorrectly = 16.6031
+
+7 : Frequency = 49. Correctly predicted = 44. Incorrectly predicted = 5. Accuracy = 89.7959
+. Confidence when predicted correctly = 21.5002. Confidence when predicted incorrectly = 12.918
+
+8 : Frequency = 40. Correctly predicted = 32. Incorrectly predicted = 8. Accuracy = 80
+. Confidence when predicted correctly = 21.114. Confidence when predicted incorrectly = 15.0381
+
+9 : Frequency = 54. Correctly predicted = 39. Incorrectly predicted = 15. Accuracy = 72.2222
+. Confidence when predicted correctly = 20.9412. Confidence when predicted incorrectly = 16.2708
+
+
+Overall Accuracy = 85.8
