@@ -307,7 +307,7 @@ class neural_network {
         }
         cout<<endl;
         
-        ofstream outfile("data.txt");  
+        //ofstream outfile("data.txt");  
 
         float prev_AvgLoss_val = INFINITY;
         for(int epoch=1 ; epoch<=epochs ; epoch++) {
@@ -326,7 +326,7 @@ class neural_network {
             printf("\r");
             cout<<"Epoch: "<<epoch<<". ";
             cout<<"Average Training Loss = "<<AvgLoss_train/data.train.size()<<".";
-            outfile<<epoch<<" "<<AvgLoss_train/data.train.size()<<" ";
+            //outfile<<epoch<<" "<<AvgLoss_train/data.train.size()<<" ";
             
             float AvgLoss_val = 0;
             int tot_correct = 0;
@@ -340,7 +340,7 @@ class neural_network {
                 AvgLoss_val += error_meanSq();
             }
             cout<<" Average Validation Loss = "<<AvgLoss_val/data.val.size()<<". Validation Accuracy = "<<tot_correct*100 / (float)data.val.size()<<" %."<<endl;
-            outfile<<AvgLoss_val/data.val.size()<<endl;
+            //outfile<<AvgLoss_val/data.val.size()<<endl;
             /* if(AvgLoss_val/data.val.size() >= prev_AvgLoss_val) {
                 cout<<"AVERAGE VALIDATION LOSS INCREASED. TERMINATING TRAINING."<<endl;
                 break;
@@ -348,7 +348,7 @@ class neural_network {
             else
                 prev_AvgLoss_val = AvgLoss_val/data.val.size(); */
         }
-        outfile.close();
+        //outfile.close();
     
         cout<<"Training complete."<<endl<<endl;
     }
